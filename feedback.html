@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Data Science</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <h1>Data Science</h1>
+           
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Tentang Data Science</a></li>
+                <li><a href="feedback.html" class="active">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  
+    <main>
+        <section class="feedback">
+            <div class="container">
+                <h2>Berikan Feedback Anda</h2>
+                <form id="feedback-form">
+                    <input type="text" id="name" placeholder="Nama Anda" required>
+                    <textarea id="feedback" placeholder="Tulis feedback Anda..." required></textarea>
+                    <button type="submit">Kirim Feedback</button>
+                </form>
+                <div id="response-message"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
