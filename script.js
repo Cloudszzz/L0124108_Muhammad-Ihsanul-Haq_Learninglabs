@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // **Form Feedback Interaction**
+  
     const form = document.getElementById('feedback-form');
     const responseMessage = document.getElementById('response-message');
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             responseMessage.style.color = '#2fc3df';
             form.reset();
 
-            // Hapus pesan setelah beberapa detik
+           
             setTimeout(() => {
                 responseMessage.textContent = '';
             }, 3000);
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // **Gallery Image Hover Effect**
+
     const galleryImages = document.querySelectorAll('.gallery .content-image');
     
     galleryImages.forEach(image => {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // **Scroll Animation**
+    
     const scrollElements = document.querySelectorAll('.animate-on-scroll');
 
     const elementInView = (el, offset = 100) => {
