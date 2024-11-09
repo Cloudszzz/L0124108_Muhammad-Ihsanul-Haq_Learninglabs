@@ -1,4 +1,4 @@
-/* General and Layout */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
 }
 
-/* Header */
+
 header {
     background-color: #1b263b;
     padding: 40px 0;
@@ -72,7 +72,7 @@ nav ul li a.active {
     color: #2fc3df;
 }
 
-/* Hero Section */
+
 .hero {
     display: flex;
     justify-content: center;
